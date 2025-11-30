@@ -14,13 +14,11 @@ A simple end-to-end data pipeline project using https://books.toscrape.com/
 - python-dotenv
 
 ## How to run
-##steps
 
--Install dependencies
+Install dependencies:
 ```bash
 pip install -r requirements.txt
-```bash
-pip install -r requirements.txt
+
 
 -Create a .env file (see .env.example):
 DB_USER=root
@@ -41,6 +39,7 @@ Excel saved to Desktop: booktoscrape.xlsx
 
 
 MySQL table: books_bookstoscrape.books (mode: replace)
+
 
 
 
