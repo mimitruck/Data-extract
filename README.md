@@ -14,20 +14,20 @@ A simple end-to-end data pipeline project using https://books.toscrape.com/
 - python-dotenv
 
 ## How to run
-1.Install dependencies:
+-Install dependencies:
 ```bash
 pip install -r requirements.txt
 
-2.Create a .env file (see .env.example):
+-Create a .env file (see .env.example):
 DB_USER=root
 DB_PASS=your_password_here
 DB_HOST=host
 DB_PORT=port
 
-3.Make sure MySQL database exists
+-Make sure MySQL database exists
 CREATE DATABASE books_bookstoscrape;
 
-4.Run
+-Run
 python Yourpyname.py
 
 
@@ -37,3 +37,4 @@ Excel saved to Desktop: booktoscrape.xlsx
 
 
 MySQL table: books_bookstoscrape.books (mode: replace)
+
